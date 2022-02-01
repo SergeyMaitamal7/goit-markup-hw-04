@@ -227,7 +227,7 @@ ul {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  background-color: var(--fon-background-white);
+  background-color: var(--bacground-team);
   border-radius: 4px;
 }
 .benefits-title {
@@ -323,6 +323,7 @@ ul {
 .team-socials-list {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 .team-socials-item {
   width: 44px;
@@ -337,7 +338,6 @@ ul {
   justify-content: center;
   width: 100%;
   height: 100%;
-  margin-top: 16px;
   background-color: var(--header-color-white);
   border-radius: 50%;
 }
@@ -538,6 +538,7 @@ ul {
   margin-left: 70px;
 }
 .footer-join {
+  text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--header-color-white);
 }
